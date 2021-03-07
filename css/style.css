@@ -1,0 +1,194 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.background-image {
+  background-image: url("world.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.title-text {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-family: 'Playfair Display', serif;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.ultimu{
+    background-color: #4CAF50;
+    float:right;
+}
+.img1Father{
+  height:100%;
+  width: 100%;
+  background-image: linear-gradient(grey, white);
+  line-height: 25px;
+} 
+
+.img1{
+  border-radius: 5px;
+  position: relative;
+  top: 15px;
+  left: 25%;
+  height: 400px;
+  width: 50%; 
+}
+.img2{
+ border-radius: 5px;
+    position: relative;
+    top: 15px;
+    left: 670px;
+    height: 300px;
+    width: 30%;
+}
+.titlu{
+  text-align: center;
+}
+h3{
+  padding-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+.m{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.link{
+  text-decoration: none;
+
+}
+/*Constelatii*/
+table{
+  border-collapse: collapse;
+}
+table,th,td{
+  border:1px solid black;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
+tr:hover {background-color: grey;}/*culoarea cand pui cursorul*/
+tr:nth-child(even) {background-color: #c7c9fa;}/*culoarea liniilor*/
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+.table{
+  padding-top: 80px;
+  padding-left: 18%;
+  
+}
+.chenar{
+  background-image: linear-gradient(grey, white);
+} 
+.chenar2{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.cutie1{/*setez modul de asezare*/
+  display: flex;
+}
+.cutie2{
+  display: flex;
+}
+.cutie3{
+  display: flex;
+}
+.cutie1 div, .cutie2 div, .cutie3 div{/*setez dimensiunile din div-uri*/
+  /*border: 1px black solid;*/
+  padding: 10px 10px 10px 70px;  
+}
+.chenar2 img{
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.chenar2 img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+.linia1{/*setez modul de asezare pe linie*/
+  flex:1;
+  float: center;
+}
+.linia2, .linia3{
+  flex:1;
+}
+
+h2{/*setez h2 in centrul div-ului*/
+ padding-left: 100px;
+}
+
+/*TIPURI*/
+.fundal{
+  background-image: linear-gradient(grey, white);
+  line-height: 25px;
+  padding: 50px 50px 50px 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.titul
+{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: black;
+  font-size: 25px;
+  font-style: bold;
+}
+.subtitlu{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-style: bold;
+}
+p{
+  margin: 30px;
+}
+
+.fb{
+  color:grey;
+}
+.ph{
+  color:white;
+}
+
+.c{
+  padding-left: 30%;
+  list-style-type: none;
+  line-height: 55px;
+
+}
