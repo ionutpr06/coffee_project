@@ -84,10 +84,11 @@ h3{
 .m{
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 .link{
   text-decoration: none;
-
+  text-align: center
 }
 /*Constelatii*/
 table{
@@ -105,14 +106,10 @@ th, td {
 tr:hover {background-color: grey;}/*culoarea cand pui cursorul*/
 tr:nth-child(even) {background-color: #c7c9fa;}/*culoarea liniilor*/
 th {
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
 }
-.table{
-  padding-top: 80px;
-  padding-left: 18%;
-  
-}
+
 .chenar{
   background-image: linear-gradient(grey, white);
 } 
@@ -159,6 +156,7 @@ h2{/*setez h2 in centrul div-ului*/
   line-height: 25px;
   padding: 50px 50px 50px 50px;
   font-family: 'Playfair Display', serif;
+  text-align: center;
 }
 
 .titul
@@ -187,8 +185,14 @@ p{
 }
 
 .c{
-  padding-left: 30%;
   list-style-type: none;
   line-height: 55px;
+}
 
+.table-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  border-block-color: gray;
+  border-block-end-color: white
 }
